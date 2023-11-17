@@ -151,7 +151,7 @@ nav>ul>li>a:hover {
 .accessibility__icon {
     border: none;
     border-radius: 25%;
-    background-image: url("images/eye-regular.svg");
+    background-image: url("../../images/eye-regular.svg");
     background-repeat: no-repeat;
     background-color: transparent;
     width: 100%;
@@ -160,7 +160,7 @@ nav>ul>li>a:hover {
 
 .accessibility__icon:hover {
     cursor: pointer;
-    background-image: url("images/eye-solid.svg");
+    background-image: url("../../images/eye-solid.svg");
 }
 
 .accessibility__menu {
