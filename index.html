@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mythical Creatures Rehabilitation Center (MCRC)</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin Sans">
+
+</head>
+
+<body data-color-mode="none" id="test">
+    
+    <div class="accessibility">
+        <button class="accessibility__icon" onclick="openMenu()" aria-label="visual accessibility menu"></button>
+        <ul class="accessibility__menu" data-open="false">
+            <li><Button class="accessibility__button" onclick="enableMonochrome()">Black & White</Button></li>
+            <li><Button class="accessibility__button">High Contrast</Button></li>
+            <li><Button class="accessibility__button" onclick="enableDarkmode()">Darkmode</Button></li>
+            <li><Button class="accessibility__button" onclick="enableOriginal()">Original Design</Button></li>
+        </ul>
+    </div>
+
+    <!-- NavBar -->
+    <header>
+        <nav>
+            <p>M<span>ythical</span>C<span>reature</span>R<span>ehabilitation</span>C<span>enter</span></p>
+            <ul>
+                <li><a href="#team" tabindex="0">Team</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero__text">
+            <p>Step into a realm where ancient legends find solace
+                and mythical creatures rediscover their strength. </p>
+        </div>
+        <div>
+            <img class="hero__image" src="images/temple1.png" alt="A cartoony illustration of a Greek style 
+            temple surrouned by trees with water fountains in the foreground">
+        </div>
+    </section>
+
+    <!-- TEAM SECTION -->
+    <section class="profiles" id="team">
+        <h2 class="profiles__title">Meet The Team</h2>
+        <div class="team">
+            <article class="team__member">
+                <img class="team__pic" src="images/wizard-lrg.svg" alt="A colourful illustration depicting a young male wizard in 
+                    a voluminous hooded cape, holding a crystal ball">
+                <h3 class="team__name">
+                    D<span>raven</span> N<span>ightshade</span>
+                </h3>
+                <p class="team__role">
+                    Head Caretaker
+                </p>
+                <p class="team__profile">
+                    Draven, a mysterious and reclusive figure, possesses
+                    a deep connection with mystical creatures, nurturing
+                    them with a unique blend of ancient remedies and
+                    modern medicine.
+                </p>
+            </article>
+            <article class="team__member">
+                <img class="team__pic" src="images/witch2-lrg.svg" alt="A colourful illustration of a young female witch holding a magic 
+                    staff in her left hand">
+                <h3 class="team__name">
+                    E<span>lara</span> M<span>oonshadow</span>
+                </h3>
+                <p class="team__role">
+                    Animal Behavior Specialist
+                </p>
+                <p class="team__profile">
+                    Elara is an empathic communicator,
+                    able to decipher the complex emotions of mythical creatures
+                    and help them heal their psychological wounds.
+                </p>
+            </article>
+            <article class="team__member">
+                <img class="team__pic" src="images/wizard2-lrg.svg" alt="A colourful illustration of an old male wizard with a large 
+                    white beard and wide brimmed hat">
+                <h3 class="team__name">
+                    M<span>agnus</span> I<span>ronheart</span></h3>
+                <p class="team__role">
+                    Magical Healer
+                </p>
+                <p class="team__profile">
+                    Magnus, a grizzled mage, uses
+                    his arcane knowledge to mend the most intricate and
+                    mystical of injuries, often crafting enchanted prosthetics
+                    for the creatures in need.
+                </p>
+            </article>
+            <article class="team__member">
+                <img class="team__pic" src="images/witch-lrg.svg" alt="A colourful illustration of a young female witch wearing a 
+                    pointed hat with long flowing hair. She is conjuring a magical flame">
+                <h3 class="team__name">
+                    S<span>eraphina</span> S<span>tormrider</span>
+                </h3>
+                <p class="team__role">
+                    Environmental Enrichment Coordinator
+                </p>
+                <p class="team__profile">
+                    Seraphina creates magical habitats
+                    for the creatures, ensuring they feel at home and
+                    experience a smooth transition into rehabilitation.
+                </p>
+            </article>
+            <article class="team__member">
+                <img class="team__pic" src="images/wizard-lrg.svg" alt="A colourful illustration depicting a young male wizard in 
+                    a voluminous hooded cape, holding a crystal ball">
+                <h3 class="team__name">
+                    O<span>rik</span> F<span>ireforge</span>
+                </h3>
+                <p class="team__role">
+                    Head of Security
+                </p>
+                <p class="team__profile">
+                    A dwarf with an unshakable sense of
+                    duty, Orik keeps both the creatures and the staff safe,
+                    specializing in warding off any potential threats.
+                </p>
+            </article>
+            <article class="team__member">
+                <img class="team__pic" src="images/witch2-lrg.svg" alt="A colourful illustration of a young female witch holding a 
+                    magic staff in her left hand">
+                <h3 class="team__name">
+                    C<span>elestia</span> F<span>rostwind</span>
+                </h3>
+                <p class="team__role">
+                    Mythical Historian
+                </p>
+                <p class="team__profile">
+                    Celestia is an expert in the lore
+                    and legends surrounding mythical creatures, helping to
+                    understand their cultural and historical context.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <!-- ABOUT / TESTIMONIALS -->
+    <section id="about" class="testimonials">
+        <div class="testimonials__about">
+            <h2>About</h2>
+            <p>
+                In the heart of an enchanted forest, the Mythical Creatures Rehabilitation Center
+                stands as a timeless refuge for sentient beings in need of respite and care.
+                Established in an era long past, our commitment to healing and renewal has never
+                wavered. We invite all mythical creatures, from weary dragons to contemplative
+                centaurs, to find solace in our embrace and embark on a journey of recovery and
+                rediscovery.
+            </p>
+            <h3>Client Testimonials</h3>
+        </div>
+        <div class="testimonials__scroll">
+            <article class="testimonials__card">
+                <img src="images/centaur.png" alt="image of a centaur from Greek pottery">
+                <p>Thalos</p>
+                <p>
+                    "With the utmost tenderness, the center nursed my leg injuries, and their
+                    serene presence restored my unity with nature. I found peace and a sense
+                    of belonging under their care."
+                </p>
+            </article>
+            <article class="testimonials__card">
+                <img src="images/mermaid.png" alt="illustration of a mermaid">
+                <p>Sirenna</p>
+                <p>
+                    "The center's healing touch transformed my wounded tail into a shimmering
+                    wonder, and their laughter-filled therapy eased my oceanic woes. They're
+                    truly the most magical of healers."
+                </p>
+            </article>
+            <article class="testimonials__card">
+                <img src="images/dragon.png" alt="illustration of a dragon">
+                <p>Ignarius Drakara</p>
+                <p>
+                    "In their stern care, they repaired my damaged scales and tamed my unruly
+                    magical imbalances. They even dared to address my hoarding compulsions.
+                    I suppose they're not entirely incompetent."
+                </p>
+            </article>
+            <article class="testimonials__card">
+                <img src="images/umnicorn.png" alt="illustration of a unicorn">
+                <p>Aurora</p>
+                <p>
+                    "The center meticulously tended to my fractured horn and restored my
+                    disrupted magical auras with the wisdom of ages. They've shown me the
+                    way back to my ethereal path."
+                </p>
+            </article>
+            <article class="testimonials__card">
+                <img src="images/phoenix.png" alt="illustration of a phoenix">
+                <p>Pyralis Emberflare</p>
+                <p>
+                    "After the center healed my burns, I flew straighter and stood taller.
+                    They helped me rise from the ashes, giving this old bird a new lease
+                    on life."
+                </p>
+            </article>
+            <article class="testimonials__card">
+                <img src="images/griffin.png" alt="illustration of a griffin">
+                <p>Arion Talonstrike</p>
+                <p>
+                    "The Mythical Creatures Rehabilitation Center dared to mend my wings,
+                    and though I found it beneath me, their expertise exceeded my expectations.
+                    They even soothed my wounded pride."
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+        <h2 class="contact__title">Contact</h2>
+        <form action="#" method="post" id="contact-submit">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <span id="nameTick" class="tick"></span>
+
+            <label for="company">Company Name:</label>
+            <input type="text" id="company" name="company" required>
+            <span id="companyTick" class="tick"></span>
+
+            <label for="email">Email: <span id="emailErrorMessage" class="error-message"></span></label>
+            <input type="email" id="email" name="email" required>
+            <span id="emailTick" class="tick"></span>
+            <span id="emailError" class="error"></span>
+
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <span id="messageTick" class="tick"></span>
+
+            <input type="submit" value="Submit" onvalid="this.setCustomValidity('')">
+
+            <p class="hide" id="message-sent">✔ Message successfully sent! ✔</p>
+        </form>
+    </section>
+
+    <footer>
+        <div class="links">
+            <a href="https://github.com/fac29b/Mythical_Creatures_Rehabilitation_Center">
+                <img src="images/github-mark.svg"
+                    alt="Github link to the Mythical Creatures Rehabilitation Center page">
+            </a>
+        </div>
+        <p>© 2023 James & Fintan. All rights reserved.</p>
+        <p><a
+                href="https://www.freepik.com/free-vector/various-magicians-illustration-collection_15535245.htm#query=wizard%20illustration&position=4&from_view=keyword&track=ais">
+                Images by pikisuperstar </a> on Freepik</p>
+    </footer>
+
+    <!-- JS SCRIPT -->
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
